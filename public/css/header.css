@@ -1,0 +1,101 @@
+header
+            {
+            background-color: var(--colorAmarillo);
+            }
+.home__header--img
+            {
+            width: 50%;
+            padding-top: 20px;
+            padding-left: 20px;
+            }
+.home__header--busqueda
+            {
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+.home__header--tarjeta
+            {
+                font-size: 12px;
+                text-align: center;
+                padding-top: 20px;
+            }
+.home__header__navbar
+            {
+                padding-left: 0px;
+                padding-top: 20px;
+                list-style-type: none;
+            }
+.home__header__navbar--link
+            {
+                text-decoration: none;
+                color: black;
+                font-size: 12px
+            }
+.home__header__menu
+            {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+.home__header__menu--hamburger
+            {
+                background-color: var(--colorCeleste);
+                color: var(--colorGrisclaro);
+                margin: 0 auto;
+                display: block;
+                border-radius: 5px;
+                height: 35px;
+                width: 35px;
+                font-size: 16px;
+                border: none;
+            }
+.home__main--img
+            {
+                width: 100%;
+            }
+.home__main--titulo
+            {
+                padding-bottom: 25px;
+                font-size: 24px;
+                text-align: center;
+                padding-top: 35px;
+            }
+.home__main--precio
+            {
+                font-size: 18px;
+            }
+.home__main--descuento
+            {
+                font-size: 16px;
+            }
+.home__main--descripcion
+            {
+                font-size: 16px;
+            }
+footer
+            {
+                padding-top: 45px;
+            }
+.home__footer__section
+            {
+                padding: 45px;
+                text-align: center;
+            }
+.home__footer--img
+            {
+                color: var(--colorCeleste);
+                font-size: 35px;
+            }
+.home__footer--descripcion
+            {
+                font-size: 16px;
+            }
+.home__footer--cuerpotexto
+            {
+                font-size: 12px;
+            }
+.home__footer--copy
+            {
+                font-size: 12px;
+                color: var(--colorGrisoscuro);
+                padding-left: 25px;
+            }
