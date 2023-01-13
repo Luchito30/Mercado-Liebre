@@ -1,0 +1,72 @@
+.home__main
+            {
+                background-color: var(--colorGrisclaro);
+                margin: 0 auto;
+            
+            }
+.home__main--titulo
+            {
+                font-size: 24px;
+                padding: 10px;
+            }
+.home__main__section__article
+            {
+            margin: 10px;
+            }
+.home__main--img
+            {
+            width: 100%;
+            }
+.home__main--div
+            {
+            border-top: 1px solid var(--colorGrisclaro);
+            padding: 15px;
+            background-color: white;
+            }
+.home__main--div i
+           {
+            color: var(--colorVerde);
+            border: 1px solid var(--colorVerde);
+            border-radius: 50%;
+            padding: 5px;
+           } 
+.home__main--precio
+            {
+                font-size: 18px;
+            }
+.home__main--descuento
+            {
+                font-size: 16px;
+                color: var(--colorVerde);
+            }
+.home__main--descripcion
+            {
+                font-size: 16px;
+                display: none;
+            }
+
+/* tablet */
+@media (min-width: 361px)
+            {
+.home__main--descripcion
+            {
+            display: block;
+            }
+.home__main__section__article
+            {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            }
+            }
+
+/*desktop* usa el mismo que el media queri de tablet*/
+@media (min-width: 769 )
+            {
+.home__main--descripcion
+            {
+            display: block;
+            }
+.home__main__section__article
+            {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            }   
+            }

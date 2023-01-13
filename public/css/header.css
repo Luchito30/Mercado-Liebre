@@ -13,6 +13,10 @@
                 padding-top: 10px;
                 padding-left: 20px;
             }
+.home__header--busqueda input::placeholder
+             {
+             font-size: 13px;
+             }          
 .home__header--tarjeta
             {
                 font-size: 12px;
@@ -24,6 +28,7 @@
                 padding-left: 0px;
                 padding-top: 20px;
                 list-style-type: none;
+                display: none;
             }
 .home__header__navbar--link
             {
@@ -51,72 +56,31 @@
 .home__header--banner img
             {
                 width: 100vw;
-                position: absolute;
-                
+                position: relative;
+                top: 4px;
             }
-.home__main
+/* tablet */
+@media (min-width: 361px)
             {
-                background-color: var(--colorGrisclaro);
-                margin: 0 auto;
+.home__header__navbar
+                {
+                display: block;
+                }
+.home__header__menu--hamburger
+                {
+                display: none;
+                }
             }
-.home__main--titulo
+
+/*desktop usa lo mismo que el media queri de tablet*/
+@media (min-width: 769 )
             {
-                padding-bottom: 25px;
-                font-size: 24px;
-                text-align: center;
-                padding-top: 100px;
-            }
-.home__main--img
-            {
-                width: 90%;
-                margin: 10px;
-            }
-.home__main--precio
-            {
-                font-size: 18px;
-            }
-.home__main--descuento
-            {
-                font-size: 16px;
-            }
-.home__main--descripcion
-            {
-                font-size: 16px;
-            }
-.home__footer
-            {
-                padding-top: 45px;
-                background-color: var(--colorGrisclaro);
-            }
-.home__footer__section
-            {
-                padding: 45px;
-                text-align: center;
-                background-color: white;
-                margin: 0 10px;
-            }
-.home__footer--img
-            {
-                color: var(--colorCeleste);
-                font-size: 35px;
-            }
-.home__footer--descripcion
-            {
-                font-size: 16px;
-            }
-.home__footer--cuerpotexto
-            {
-                font-size: 12px;
-            }
-.home__footer__section__copy
-            {
-                background-color: white;
-                margin: 0 10px;
-            }
-.home__footer__section__copy--final
-            {
-                font-size: 12px;
-                color: var(--colorGrisoscuro);
-                padding-left: 25px;
-                padding-bottom: 20px;
+.home__header__navbar
+                {
+                display: block;
+                }
+.home__header__menu--hamburger
+                {
+                display: none;
+                }   
             }
