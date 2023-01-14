@@ -4,6 +4,11 @@
                 margin: 0 auto;
             
             }
+.home__main__section
+            {
+            display: flex;
+            flex-wrap: wrap;
+            }
 .home__main--titulo
             {
                 font-size: 24px;
@@ -22,14 +27,31 @@
             border-top: 1px solid var(--colorGrisclaro);
             padding: 15px;
             background-color: white;
+            position: relative;
+            
             }
 .home__main--div i
            {
-            color: var(--colorVerde);
-            border: 1px solid var(--colorVerde);
-            border-radius: 50%;
+            display: block;
+            font-size: 16px;
             padding: 5px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid var(--colorVerde);
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            right: 20px;
+            top: -15px;
+            color: var(--colorVerde);
            } 
+.home__main--flex
+            {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            padding-bottom: 10px;
+            }
 .home__main--precio
             {
                 font-size: 18px;
@@ -38,6 +60,7 @@
             {
                 font-size: 16px;
                 color: var(--colorVerde);
+                padding-left: 15px;
             }
 .home__main--descripcion
             {
@@ -48,6 +71,10 @@
 /* tablet */
 @media (min-width: 361px)
             {
+.home__main__section
+            {
+                justify-content: space-between;
+            }
 .home__main--descripcion
             {
             display: block;
@@ -55,11 +82,12 @@
 .home__main__section__article
             {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            width: 40%;
             }
             }
 
 /*desktop* usa el mismo que el media queri de tablet*/
-@media (min-width: 769 )
+@media (min-width: 769px)
             {
 .home__main--descripcion
             {
@@ -68,5 +96,6 @@
 .home__main__section__article
             {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            width: 22%;
             }   
             }

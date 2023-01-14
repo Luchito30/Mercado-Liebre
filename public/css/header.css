@@ -2,6 +2,12 @@
             {
             background-color: var(--colorAmarillo);
             }
+.home__header--top
+            {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            }
 .home__header--img
             {
             width: 50%;
@@ -10,20 +16,50 @@
             }
 .home__header--busqueda
             {
+                width: 50%;
                 padding-top: 10px;
                 padding-left: 20px;
+                position: relative;
             }
 .home__header--busqueda input::placeholder
-             {
-             font-size: 13px;
-             }          
+            {
+            font-size: 13px;
+            }   
+.home__header--busqueda input
+            {
+            width: 75%;
+            border: none;
+
+            }
+.home__header--busqueda button
+            {
+                top: 11px;
+                position: absolute;
+                border: none;
+                background-color: white;
+                color: var(--colorGrisOscuro);
+                margin: auto;
+            }  
 .home__header--tarjeta
             {
                 font-size: 12px;
                 text-align: center;
                 padding-top: 20px;
+                margin: auto;
+            }
+.home__header--buttom
+            {
+            display: flex;
+            flex-wrap: wrap;
             }
 .home__header__navbar
+            {
+                padding-left: 0px;
+                padding-top: 20px;
+                list-style-type: none;
+                display: none;
+            }
+.home__header__navbar__user
             {
                 padding-left: 0px;
                 padding-top: 20px;
@@ -38,8 +74,8 @@
             }
 .home__header__menu
             {
-                padding-top: 25px;
-                padding-bottom: 25px;
+                padding-bottom: 15px;
+                padding-top: 15px;
             }
 .home__header__menu--hamburger
             {
@@ -62,9 +98,37 @@
 /* tablet */
 @media (min-width: 361px)
             {
+.header
+                {
+                align-items: center;
+                }
+.home__header--img
+                {
+                width: 33%;
+                }
+.home__header--busqueda
+                {
+                width: 33%;
+                }
+.home__header--tarjeta
+                {
+                width: 33%;
+                }
+.home__header--buttom
+                {
+                justify-content: space-around;
+                }
 .home__header__navbar
                 {
-                display: block;
+                display: flex;
+                }
+.home__header__navbar__user
+                {
+                display: flex;
+                }
+.home__header__navbar--link
+                {
+                padding: 5px;
                 }
 .home__header__menu--hamburger
                 {
@@ -74,13 +138,42 @@
 
 /*desktop usa lo mismo que el media queri de tablet*/
 @media (min-width: 769 )
+
             {
+.header
+                {
+                align-items: center;
+                }
+.home__header--img
+                {
+                width: 33%;
+                }
+.home__header--busqueda
+                {
+                width: 33%;
+                }
+.home__header--tarjeta
+                {
+                width: 33%;
+                }
+.home__header--buttom
+                {
+                justify-content: space-around;
+                }
 .home__header__navbar
                 {
-                display: block;
+                display: flex;
+                }
+.home__header__navbar__user
+                {
+                display: flex;
+                }
+.home__header__navbar--link
+                {
+                padding: 5px;
                 }
 .home__header__menu--hamburger
                 {
                 display: none;
-                }   
+                }
             }
