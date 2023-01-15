@@ -1,0 +1,238 @@
+body {
+    max-width: 1366x;
+    margin: 0 auto;
+}
+
+.register__main {
+    background-color: var(--colorGrisclaro);
+}
+
+.register__main--titulo {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px
+}
+
+.register__main_form--nombre,
+.register__main_form--usuario,
+.register__main_form--mail,
+.register__main_form--fecha,
+.register__main_form--domicilio,
+.register__main_form--avatar,
+.register__main_form--password,
+.register__main_form--password2 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.register__main_form--nombre input,
+.register__main_form--usuario input,
+.register__main_form--mail input,
+.register__main_form--fecha input,
+.register__main_form--domicilio input,
+.register__main_form--password input,
+.register__main_form--password2 input {
+    width: 80%;
+    padding: 7px;
+    border: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.register__main--titulo2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.register__main--titulo3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.register__main_form--perfil {
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+
+.register__main_form--perfil label {
+    font-size: 18px;
+}
+
+.register__main_form--perfil label input {
+    width: 50px;
+}
+
+.register__main--titulo4 {
+    text-align: center;
+    margin: 10px;
+}
+
+.register__main__form--caja {
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+.register__main_form--interes1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.register__main_form--interes2 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.register__main_form--interes3 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-right: 7px;
+    font-size: 18px;
+}
+
+.register__main_form--interes4 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.register__main_form--interes5 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 23px;
+    font-size: 18px;
+
+}
+
+.register__main--titulo5 {
+    text-align: center;
+    margin: 10px;
+}
+
+.register__main_form--avatar input{
+    padding-top: 25px;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+
+.register__main--boton {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.register__enviar {
+    height: 30px;
+    width: 25%;
+    margin-bottom: 20px;
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisclaro);
+    font-size: 16px;
+}
+
+.register__reset {
+    height: 30px;
+    width: 25%;
+    margin-bottom: 20px;
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisclaro);
+    font-size: 16px;
+
+}
+
+@media (min-width: 485px) {
+    .register__main--titulo {
+        font-size: 30px;
+    }
+
+    .register__main--titulo2, .register__main--titulo3, .register__main--titulo4, .register__main--titulo5 {
+        font-size: 20px;
+    }
+
+    .register__main_form--perfil label {
+        font-size: 22px;
+    }
+
+    .register__main_form--interes1 {
+        font-size: 22px;
+    }
+
+    .register__main_form--interes2{
+        font-size: 22px;
+        padding-right: 12px;
+    }
+
+    .register__main_form--interes3{
+    font-size: 22px;
+    padding-right: 9px;
+    }
+
+    .register__main_form--interes4{
+    font-size: 22px;
+    padding-left: 36px;
+    }
+
+    .register__main_form--interes5{
+    font-size: 22px;
+    padding-left: 29px;
+    }
+
+    .register__main_form--avatar input{
+        font-size: 16px;
+    }
+
+    .register__enviar {
+        font-size: 20px;
+        height: 34px;
+        width: 135px;
+    }
+
+    .register__reset {
+        font-size: 20px;
+        height: 34px;
+        width: 135px;
+    }
+
+    .register__main_form--nombre input,
+    .register__main_form--usuario input,
+    .register__main_form--mail input,
+    .register__main_form--fecha input,
+    .register__main_form--domicilio input,
+    .register__main_form--password input,
+    .register__main_form--password2 input {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .register__main--titulo {
+        font-size: 40px;
+    }
+
+    .register__main--titulo2, .register__main--titulo3, .register__main--titulo4, .register__main--titulo5 {
+        font-size: 28px;
+    }
+
+    .register__main_form--nombre input,
+    .register__main_form--usuario input,
+    .register__main_form--mail input,
+    .register__main_form--fecha input,
+    .register__main_form--domicilio input,
+    .register__main_form--password input,
+    .register__main_form--password2 input {
+        width: 65%;
+        padding: 7px;
+        border: none;
+        padding-left: 30px;
+        font-size: 22px;
+    }
+}
