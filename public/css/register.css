@@ -157,6 +157,16 @@ body {
         font-size: 20px;
     }
 
+    .register__main_form--nombre input,
+    .register__main_form--usuario input,
+    .register__main_form--mail input,
+    .register__main_form--fecha input,
+    .register__main_form--domicilio input,
+    .register__main_form--password input,
+    .register__main_form--password2 input {
+        font-size: 18px;
+    }
+
     .register__main_form--perfil label {
         font-size: 22px;
     }
@@ -200,16 +210,6 @@ body {
         height: 34px;
         width: 135px;
     }
-
-    .register__main_form--nombre input,
-    .register__main_form--usuario input,
-    .register__main_form--mail input,
-    .register__main_form--fecha input,
-    .register__main_form--domicilio input,
-    .register__main_form--password input,
-    .register__main_form--password2 input {
-        font-size: 18px;
-    }
 }
 
 @media (min-width: 769px) {
@@ -231,8 +231,7 @@ body {
     .register__main_form--password2 input {
         width: 65%;
         padding: 7px;
-        border: none;
         padding-left: 30px;
         font-size: 22px;
     }
-}
+}  

@@ -74,7 +74,7 @@ body {
 .home__header__navbar--link {
     text-decoration: none;
     color: black;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .home__header__menu {
@@ -114,13 +114,28 @@ body {
         width: 33%;
     }
 
+    .home__header--busqueda input{
+        width: 85%;
+        height: 25px;
+    }
+
+    .home__header--busqueda button{
+        top: 10px;
+        height: 25px;
+    }
+
     .home__header--tarjeta {
         width: 33%;
     }
 
-    .home__header--buttom {
-        justify-content: space-around;
+    .home__header__navegador{
+        margin-right: auto;
     }
+
+    .home__header__navegador2{
+        margin-left: auto;
+    }
+
 
     .home__header__navbar {
         display: flex;
@@ -131,7 +146,7 @@ body {
     }
 
     .home__header__navbar--link {
-        padding: 5px;
+        padding: 3px;
     }
 
     .home__header__menu--hamburger {
@@ -155,6 +170,7 @@ body {
 
     .home__header--tarjeta {
         width: 33%;
+        font-size: 16px;
     }
 
     .home__header--buttom {
@@ -170,7 +186,8 @@ body {
     }
 
     .home__header__navbar--link {
-        padding: 5px;
+        padding: 10px;
+        font-size: 16px;
     }
 
     .home__header__menu--hamburger {

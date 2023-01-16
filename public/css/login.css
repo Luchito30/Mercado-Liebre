@@ -2,29 +2,40 @@ body {
     max-width: 1366x;
     margin: 0 auto;
 }
-.login__main{
+
+.login__main {
     background-color: var(--colorGrisclaro);
 }
+
 .login__main--titulo {
     text-align: center;
     font-size: 24px;
     padding: 20px
 }
-.login__main_form {
-    text-align: center;
-}
-.login__main_form--usuario, .login__main_form--password{
+
+.login__main_form--usuario,
+.login__main_form--password {
     padding-bottom: 30px;
     padding-top: 20px;
+    text-align: center;
 }
-.login__main_form--usuario input, .login__main_form--password input{
+
+.login__main_form--usuario input,
+.login__main_form--password input {
     width: 80%;
     padding: 7px;
     border: none;
     padding-left: 15px;
     font-size: 15px;
 }
-.login__enviar{
+
+.login__main--boton {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.login__enviar {
     height: 30px;
     width: 25%;
     margin-bottom: 20px;
@@ -33,29 +44,34 @@ body {
     font-size: 16px;
 }
 
-@media (min-width: 485px){
-    .login__main--titulo{
+@media (min-width: 485px) {
+    .login__main--titulo {
         font-size: 30px;
     }
-    .login__enviar{
+
+    .login__main_form--usuario input,
+    .login__main_form--password input {
+        font-size: 18px;
+    }
+
+    .login__enviar {
         font-size: 20px;
         height: 34px;
         width: 135px;
     }
-    .login__main_form--usuario input, .login__main_form--password input{
-    font-size: 18px;   
-    }
 }
 
-@media (min-width: 769px){
-    .login__main_form--usuario input, .login__main_form--password input{
-        width: 65%;
-    padding: 7px;
-    border: none;
-    padding-left: 15px;
-    font-size: 22px;
+@media (min-width: 769px) {
+    .login__main--titulo {
+        font-size: 40px;
     }
-    .login__main--titulo{
-        font-size: 40px
+
+    .login__main_form--usuario input,
+    .login__main_form--password input {
+        width: 65%;
+        padding: 7px;
+        padding-left: 30px;
+        font-size: 22px;
+
     }
 }
