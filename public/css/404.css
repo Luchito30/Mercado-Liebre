@@ -1,0 +1,16 @@
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.found__main{
+    background-color: var(--colorGrisclaro);
+    margin: 0 auto;
+}
+.found__titulo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.found__subtitulo{
+    text-align: center;
+}
