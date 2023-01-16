@@ -1,36 +1,75 @@
-.home__footer
-            {
-                background-color: var(--colorGrisclaro);
-            }
-.home__footer__section
-            {
-                padding: 45px;
-                text-align: center;
-                background-color: white;
-                margin: 0 10px;
-            }
-.home__footer--img
-            {
-                color: var(--colorCeleste);
-                font-size: 35px;
-            }
-.home__footer--descripcion
-            {
-                font-size: 16px;
-            }
-.home__footer--cuerpotexto
-            {
-                font-size: 12px;
-            }
-.home__footer__section__copy
-            {
-                background-color: white;
-                margin: 0 10px;
-            }
-.home__footer__section__copy--final
-            {
-                font-size: 12px;
-                color: var(--colorGrisoscuro);
-                padding-left: 25px;
-                padding-bottom: 20px;
-            }
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.home__footer {
+    background-color: var(--colorGrisclaro);
+    padding-top: 50px;
+}
+
+.home__footer__section {
+    padding: 1px 50px;
+    text-align: center;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.home__footer--img {
+    color: var(--colorCeleste);
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.home__footer--img2 {
+    color: var(--colorCeleste);
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.home__footer--img3 {
+    color: var(--colorCeleste);
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.home__footer--descripcion {
+    font-size: 16px;
+}
+
+.home__footer--cuerpotexto {
+    font-size: 12px;
+}
+
+.home__footer__section__copy {
+    background-color: white;
+    margin: 0 10px;
+    padding-top: 50px;
+}
+
+.home__footer__section__copy--final {
+    font-size: 12px;
+    color: var(--colorGrisoscuro);
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+/*Tablet*/
+@media(min-width: 485px) {}
+
+@media(min-width: 769px) {
+    .home__footer--descripcion {
+        font-size: 20px;
+    }
+
+    .home__footer--cuerpotexto {
+        font-size: 16px;
+    }
+
+    .home__footer__section__copy--final {
+        font-size: 16px;
+    }
+}

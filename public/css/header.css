@@ -115,13 +115,18 @@ body {
     }
 
     .home__header--busqueda input{
-        width: 85%;
-        height: 25px;
+        width: 80%;
+        height: 40px;
     }
 
     .home__header--busqueda button{
         top: 10px;
-        height: 25px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .home__header--busqueda input::placeholder {
+        font-size: 12px;
     }
 
     .home__header--tarjeta {
@@ -168,13 +173,21 @@ body {
         width: 33%;
     }
 
-    .home__header--tarjeta {
-        width: 33%;
+    .home__header--busqueda input::placeholder {
         font-size: 16px;
     }
 
+    .home__header--busqueda input{
+        width: 90%;
+    }
+
     .home__header--buttom {
-        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    .home__header--tarjeta {
+        width: 33%;
+        font-size: 18px;
     }
 
     .home__header__navbar {
@@ -186,8 +199,8 @@ body {
     }
 
     .home__header__navbar--link {
-        padding: 10px;
-        font-size: 16px;
+        padding: 8px;
+        font-size: 18px;
     }
 
     .home__header__menu--hamburger {

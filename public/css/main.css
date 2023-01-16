@@ -1,3 +1,7 @@
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+}
 .home__main
             {
                 background-color: var(--colorGrisclaro);
@@ -69,11 +73,11 @@
             }
 
 /* tablet */
-@media (min-width: 361px)
+@media (min-width: 485px)
             {
 .home__main__section
             {
-                justify-content: space-between;
+                justify-content: center;
             }
 .home__main--descripcion
             {
