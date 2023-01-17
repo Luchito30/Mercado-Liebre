@@ -26,14 +26,10 @@ body {
     position: relative;
 }
 
-.home__header--busqueda input::placeholder {
-    font-size: 13px;
-}
-
 .home__header--busqueda input {
     width: 75%;
     border: none;
-
+    transition: all 1s;
 }
 
 .home__header--busqueda button {
@@ -43,6 +39,20 @@ body {
     background-color: white;
     color: var(--colorGrisOscuro);
     margin: auto;
+    transition: all 1s;
+}
+
+.busqueda:hover{
+    background-color: lightblue;
+}
+
+.busqueda1:hover{
+    background-color: lightblue;
+}
+
+.home__header--busqueda:hover input::placeholder
+{
+    color: black;
 }
 
 .home__header--tarjeta {

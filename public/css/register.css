@@ -38,6 +38,27 @@ body {
     border: none;
     padding-left: 25px;
     font-size: 15px;
+    transition: all 1s
+}
+
+.register__main_form--nombre input:hover,
+.register__main_form--usuario input:hover,
+.register__main_form--mail input:hover,
+.register__main_form--fecha input:hover,
+.register__main_form--domicilio input:hover,
+.register__main_form--password input:hover,
+.register__main_form--password2 input:hover{
+    background-color:lightblue;
+}
+
+.register__main_form--nombre:hover input::placeholder,
+.register__main_form--usuario:hover input::placeholder,
+.register__main_form--mail:hover input::placeholder,
+.register__main_form--fecha:hover input::placeholder,
+.register__main_form--domicilio:hover input::placeholder,
+.register__main_form--password:hover input::placeholder,
+.register__main_form--password2:hover input::placeholder{
+    color: black;
 }
 
 .register__main--titulo2 {
@@ -74,7 +95,6 @@ body {
 .register__main__form--caja {
     padding-bottom: 30px;
     padding-top: 20px;
-
 }
 
 .register__main_form--interes1 {
@@ -133,19 +153,29 @@ body {
     height: 30px;
     width: 25%;
     margin-bottom: 20px;
-    background-color: var(--colorCeleste);
+    background-color: var(--colorGrisoscuro);
     color: var(--colorGrisclaro);
     font-size: 16px;
+    transition: all 2s;
+}
+
+.register__enviar:hover{
+    background-color: var(--colorEnvio);
+    border: none;
 }
 
 .register__reset {
     height: 30px;
     width: 25%;
     margin-bottom: 20px;
-    background-color: var(--colorCeleste);
+    background-color: var(--colorGrisoscuro);
     color: var(--colorGrisclaro);
     font-size: 16px;
-
+    transition: all 2s;
+}
+.register__reset:hover{
+    background-color: var(--colorEnvio);
+    border: none;
 }
 
 @media (min-width: 485px) {

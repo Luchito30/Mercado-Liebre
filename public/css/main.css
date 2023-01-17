@@ -2,104 +2,108 @@ body {
     max-width: 1366px;
     margin: 0 auto;
 }
-.home__main
-            {
-                background-color: var(--colorGrisclaro);
-                margin: 0 auto;
-            
-            }
-.home__main__section
-            {
-            display: flex;
-            flex-wrap: wrap;
-            }
-.home__main--titulo
-            {
-                font-size: 24px;
-                padding: 10px;
-            }
-.home__main__section__article
-            {
-            margin: 10px;
-            }
-.home__main--img
-            {
-            width: 100%;
-            }
-.home__main--div
-            {
-            border-top: 1px solid var(--colorGrisclaro);
-            padding: 15px;
-            background-color: white;
-            position: relative;
-            
-            }
-.home__main--div i
-           {
-            display: block;
-            font-size: 16px;
-            padding: 5px;
-            width: 30px;
-            height: 30px;
-            border: 1px solid var(--colorVerde);
-            background-color: #fff;
-            border-radius: 50%;
-            position: absolute;
-            right: 20px;
-            top: -15px;
-            color: var(--colorVerde);
-           } 
-.home__main--flex
-            {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-end;
-            padding-bottom: 10px;
-            }
-.home__main--precio
-            {
-                font-size: 18px;
-            }
-.home__main--descuento
-            {
-                font-size: 16px;
-                color: var(--colorVerde);
-                padding-left: 15px;
-            }
-.home__main--descripcion
-            {
-                font-size: 16px;
-                display: none;
-            }
+
+.home__main {
+    background-color: var(--colorGrisclaro);
+    margin: 0 auto;
+
+}
+
+.home__main__section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__main--titulo {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.home__main__section__article {
+    margin: 10px;
+    transition: all 1s;
+}
+
+.home__main--img {
+    width: 100%;
+}
+
+.home__main__section__article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home__main--div {
+  border-top: 1px solid var(--colorGrisclaro);
+  padding: 10px;
+    background-color: white;
+    position: relative;
+    padding-top: 35px;
+
+}
+
+.home__main--div i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--colorVerde);
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: var(--colorVerde);
+    transition: all 1.5s;
+}
+
+.home__main__section__article:hover div i{
+    transform: rotate(-90deg);
+}
+
+.home__main__section__article h5{
+    height: 0px;
+    transition: all 1.5s;
+    overflow: hidden;
+}
+
+.home__main__section__article:hover h5{
+    height: 60px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.home__main--flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.home__main--precio {
+    font-size: 18px;
+}
+
+.home__main--descuento {
+    font-size: 16px;
+    color: var(--colorVerde);
+    padding-left: 5px;
+}
+
 
 /* tablet */
-@media (min-width: 485px)
-            {
-.home__main__section
-            {
-                justify-content: center;
-            }
-.home__main--descripcion
-            {
-            display: block;
-            }
-.home__main__section__article
-            {
-            box-shadow: 0px 0px 10px rgb(100, 100, 100);
-            width: 40%;
-            }
-            }
+@media (min-width: 485px) {
+    .home__main__section {
+        justify-content: center;
+    }
+
+    .home__main__section__article {
+        width: 40%;
+    }
+}
 
 /*desktop* usa el mismo que el media queri de tablet*/
-@media (min-width: 769px)
-            {
-.home__main--descripcion
-            {
-            display: block;
-            }
-.home__main__section__article
-            {
-            box-shadow: 0px 0px 10px rgb(100, 100, 100);
-            width: 22%;
-            }   
-            }
+@media (min-width: 769px) {
+    .home__main__section__article {
+        width: 22%;
+    }
+}
