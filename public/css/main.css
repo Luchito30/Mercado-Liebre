@@ -15,8 +15,10 @@ body {
 }
 
 .home__main--titulo {
-    font-size: 24px;
-    padding: 10px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .home__main__section__article {
@@ -105,5 +107,9 @@ body {
 @media (min-width: 769px) {
     .home__main__section__article {
         width: 22%;
+    }
+    .home__main--titulo{
+        font-size: 35px;
+        padding-left: 70px;
     }
 }
